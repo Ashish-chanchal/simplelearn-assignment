@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.slick-arrow{
+    display :  none !important;
+}
+
+@font-face { 
+    font-family: "sansRoundedBold"; 
+    src: url("/assets/fonts/PPPangramSansRounded-Bold.woff"); 
+} 
+@font-face { 
+    font-family: "sansRoundedMedium"; 
+    src: url("/assets/fonts/PPPangramSansRounded-Medium.ttf"); 
+}
+@font-face { 
+    font-family: "sansRoundedSemiBold"; 
+    src: url("/assets/fonts/PPPangramSansRounded-Semibold.ttf"); 
+}
