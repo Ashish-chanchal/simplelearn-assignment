@@ -21,9 +21,9 @@ To get started with this project, follow these steps:
 2. Install dependencies using npm or yarn:
 
    ```bash
-  - npm install
-  - # or
-  - yarn install
+   npm install
+    # or
+   yarn install
 
 #Development
 - During development, you can run the following commands:
