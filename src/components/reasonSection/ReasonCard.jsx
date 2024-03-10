@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 function ReasonCard(props) {
   return (
@@ -10,5 +10,9 @@ function ReasonCard(props) {
     </div>
   )
 }
+ReasonCard.propTypes = {
+  imgUrl: PropTypes.string.isRequired,
+  details: PropTypes.string.isRequired,
+};
 
 export default ReasonCard

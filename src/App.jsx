@@ -14,8 +14,8 @@ import FloatingBtn from "./components/floatingbtn/FloatingBtn";
 
 export default function App() {
   return (
-    <div className="">
-      <div className="w-full m-auto">
+    <>
+     
     <Navbar />
     <HeroSection />
     
@@ -29,7 +29,7 @@ export default function App() {
     <BlogSection/>
     <Learning/>
     <Footer/>
-    </div>
-    </div>
+    
+    </>
   )
 }

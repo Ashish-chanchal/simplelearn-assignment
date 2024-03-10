@@ -1,3 +1,6 @@
+import PropTypes from 'prop-types';
+
+
 function Category(props) {
   return (
     <div className=" border-b-4 hover:border-blue-900 rounded-md" >
@@ -10,5 +13,10 @@ function Category(props) {
     </div>
   )
 }
+Category.propTypes = {
+  imgUrl: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+};
+
 
 export default Category

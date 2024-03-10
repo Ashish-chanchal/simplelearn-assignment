@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 function HeroCard(props) {
   const {imageUrl, title, description} = props
@@ -10,5 +10,10 @@ function HeroCard(props) {
     </div>
   )
 }
+HeroCard.propTypes = {
+  imageUrl: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+};
 
 export default HeroCard

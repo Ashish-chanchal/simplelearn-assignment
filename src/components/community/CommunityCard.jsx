@@ -1,5 +1,5 @@
 import comas from '../../assets/community/comas.png'
-
+import PropsTypes from 'prop-types'
 function CommunityCard(props) {
   return (
     <div className={`relative p-6 ${props.classN}`}>
@@ -13,4 +13,10 @@ function CommunityCard(props) {
   )
 }
 
+CommunityCard.propTypes = {
+  imgUrl: PropsTypes.string.isRequired,
+  name: PropsTypes.string.isRequired,
+  details: PropsTypes.string.isRequired,
+  classN: PropsTypes.string.isRequired,
+}
 export default CommunityCard
