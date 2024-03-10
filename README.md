@@ -25,7 +25,7 @@ To get started with this project, follow these steps:
     # or
    yarn install
 
-#Development
+# Development
 - During development, you can run the following commands:
 
 - npm run dev or yarn dev: Start the development server.
@@ -33,3 +33,9 @@ To get started with this project, follow these steps:
 - npm run serve or yarn serve: Serve the production build locally.
 - npm run lint or yarn lint: Lint your code using ESLint.
 - npm test or yarn test: Run your tests
+  
+```bash
+npm run build
+# or
+yarn build
+
